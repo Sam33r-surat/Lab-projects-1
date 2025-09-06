@@ -15,10 +15,16 @@ int main(){
     scanf("%f",&side2);
     printf("Enter the length of the 3rd side of the triangle : ");
     scanf("%f",&side3);
+   if(side1 + side2 <= side3 || side2 + side3 <= side1 || side3 + side1 <= side2)
+   {
+      printf("Entered lengths can't form a triangle");
+   }
+else {
     s = (side1 + side2 + side3)/2;
     area = sqrt(s*(s-side1)*(s-side2)*(s-side3));
     printf("area of the triangle is : %.2f",area);
     printf("\n");
     system("pause");
     return 0;
+    }
 }
