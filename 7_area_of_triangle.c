@@ -18,7 +18,9 @@ int main(){
    if(side1 + side2 <= side3 || side2 + side3 <= side1 || side3 + side1 <= side2)
    {
       printf("Entered lengths can't form a triangle");
-   }
+      system("pause");
+    }
+
 else {
     s = (side1 + side2 + side3)/2;
     area = sqrt(s*(s-side1)*(s-side2)*(s-side3));

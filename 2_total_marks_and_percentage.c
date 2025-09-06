@@ -19,6 +19,7 @@ int main()
     scanf("%f",&paint);
     if(math>100||phy>100||che>100||eng>100||paint>100){
         printf("entered marks are invalid \n");
+        system("pause");
     }
     else{
     total = math + phy + che + eng + paint;
