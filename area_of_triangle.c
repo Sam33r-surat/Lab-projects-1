@@ -6,6 +6,7 @@
 
 #include<stdio.h>
 #include<math.h>
+#include<stdlib.h>
 int main(){
     float side1,side2,side3,s,area;
     printf("Enter the length of the 1st side of the triangle : ");
@@ -16,6 +17,8 @@ int main(){
     scanf("%f",&side3);
     s = (side1 + side2 + side3)/2;
     area = sqrt(s*(s-side1)*(s-side2)*(s-side3));
-    printf("area of the triangle is : %f",area);
+    printf("area of the triangle is : %.2f",area);
+    printf("\n");
+    system("pause");
     return 0;
 }
