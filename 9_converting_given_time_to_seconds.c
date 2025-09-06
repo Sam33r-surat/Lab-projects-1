@@ -14,7 +14,8 @@ int main()
     printf("total number of seconds: ");
     scanf("%d",&sec);
     total_sec = hr*3600 + min*60 + sec;
-    printf("total time in seconds: %d \n",total_sec);
+    printf("total time in seconds: %d",total_sec);
+    printf("\n");
     system("pause");
     return 0;
 }

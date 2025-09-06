@@ -17,7 +17,7 @@ int main(){
     scanf("%f",&side3);
    if(side1 + side2 <= side3 || side2 + side3 <= side1 || side3 + side1 <= side2)
    {
-      printf("Entered lengths can't form a triangle");
+      printf("Entered lengths can't form a triangle\n");
       system("pause");
     }
 
