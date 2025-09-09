@@ -1,4 +1,4 @@
-/*  To read marks of five subjects and to calculate total marks and percentage
+/*  Objective : To read marks of five subjects and to calculate total marks and percentage
     
     Author : Sameer Yadav
 */

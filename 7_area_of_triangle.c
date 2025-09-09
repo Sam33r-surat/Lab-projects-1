@@ -1,4 +1,4 @@
-/*  The objective of this program is to calculate the area of a triangle while taking the sides of the triangle as user input
+/*  Objective : To calculate the area of a triangle while taking the sides of the triangle as user input
     
     Author: Sameer Yadav   
 */

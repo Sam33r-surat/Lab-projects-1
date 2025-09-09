@@ -1,3 +1,8 @@
+/*  Objective : To calculate cutoff marks taking marks of 4 subjects as input 
+
+    Author : Sameer Yadav
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){

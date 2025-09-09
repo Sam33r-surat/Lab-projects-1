@@ -1,4 +1,4 @@
-/*  To find total number of seconds in given time
+/*  Objective : To find total number of seconds in given time
     
     Author : Sameer Yadav
 */

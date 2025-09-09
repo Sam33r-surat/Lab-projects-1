@@ -1,3 +1,9 @@
+/*  Objective : To find out the division of a student achieved given the marks of 5 subjects
+ 
+
+    Author : Sameer Yadav
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){

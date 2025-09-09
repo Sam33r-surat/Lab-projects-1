@@ -1,19 +1,18 @@
-/*  Objective : swapping two variables using third variable
+/*  Objective : To swap two variable without the third variable 
 
     Author : Sameer Yadav
 */
-
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
-    int first,second,third;
-    printf("enter value of first variable : ");
+    int first,second;
+    printf("Enter value of first variable : ");
     scanf("%d",&first);
-    printf("enter value of second variable : ");
+    printf("Enter value of second variable : ");
     scanf("%d",&second);
-    third = first;
-    first = second;
-    second = third;
+    first = first + second;
+    second = first - second;
+    first = first - second;
     printf("swapped value of first variable is %d\n",first);
     printf("swapped value of second variable is %d\n",second);
     system("pause");

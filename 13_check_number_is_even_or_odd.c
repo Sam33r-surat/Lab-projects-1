@@ -1,3 +1,8 @@
+/*  Objective : To check whether a given number is even or odd 
+
+    Author : Sameer Yadav
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){

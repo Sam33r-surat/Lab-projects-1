@@ -1,4 +1,4 @@
-/*  To calculate simple interest given the principal amount, interest, time(in years)
+/*  Objective : To calculate simple interest given the principal amount, interest, time(in years)
 
     Author : Sameer Yadav
 */

@@ -1,3 +1,8 @@
+/*  Objective : To calculate gross salary
+
+    Author : Sameer Yadav
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){

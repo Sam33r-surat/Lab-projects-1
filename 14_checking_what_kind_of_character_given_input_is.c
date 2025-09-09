@@ -1,3 +1,8 @@
+/*  Objective : To find out what kind of characts is given by the user
+
+    Author : Sameer Yadav
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){

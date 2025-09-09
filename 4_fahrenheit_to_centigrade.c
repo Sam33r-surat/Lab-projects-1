@@ -1,4 +1,4 @@
-/*  Fahrenheit to Celsius converter
+/*  Objective : Fahrenheit to Celsius converter
     Author : Sameer Yadav
 */
 #include<stdio.h>

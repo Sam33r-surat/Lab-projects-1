@@ -1,3 +1,9 @@
+/*  Objective : To calculate time it takes earth to finish one revolution around the sun 
+                in days,hours,mins,seconds taking the total amount of time in seconds 
+
+    Author : Sameer Yadav
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
