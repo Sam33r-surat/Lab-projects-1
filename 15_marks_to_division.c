@@ -30,15 +30,19 @@ int main(){
    printf("Your division is 1st\n");
    system("pause");
    }
-   else if(50<=percent<60)
+   else if((50<=percent)&&(percent<60))
    {
     printf("Your division is 2nd\n");
     system("pause");
    }
+    else if((40<=percent)&&(percent<50))
+    {
+     printf("Your division is 3rd\n");
+     system("pause");
+    }
     else
     {
-        printf("Your division is 3rd\n");
-        system("pause");
+      printf("You've failed");   
     }
     return 0;
     }

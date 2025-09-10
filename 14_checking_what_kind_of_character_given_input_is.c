@@ -1,4 +1,4 @@
-/*  Objective : To find out what kind of characts is given by the user
+/*  Objective : To find out what kind of character is given by the user
 
     Author : Sameer Yadav
 */
